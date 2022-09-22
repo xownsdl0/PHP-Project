@@ -1,0 +1,85 @@
+html,body{
+	height: 100%;
+}
+.wrap {
+    display: flex;
+    flex-direction: column;
+	height : 100%;
+}
+.header {
+  height: 72px;
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.1);
+  display: flex;
+}
+
+.nav {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.logo {
+    margin-left: 72px;;
+}
+
+.menu {
+    margin-left: auto;
+    margin-right: 72px;
+}
+
+.menu > ul >li {
+    float: left;
+    margin: 3px;
+}
+
+.gnb {
+    margin-right: 72px;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+.aside {
+    display: flex;
+    flex-direction: column;
+    flex: none;
+    width: 400px;
+    /* background-color: #FFF8DC; */
+}
+
+.main{
+    display: flex;
+    flex: 1;
+    overflow: auto;
+}
+
+.aside > .show_label {
+    display: flex;
+    flex-direction: row;
+    flex: 0.2;
+}
+
+.aside > .todo {
+    display: flex;
+    flex-direction: row;
+    flex: 0.5;
+}
+
+.aside > .show {
+    display: flex;
+    flex-direction: row;
+    flex: 9.3;
+}
+/* .todo {
+    display: flex;
+    flex: none;
+    width: 100%;
+    flex: 1;
+} */
+
+/* .footer {
+    height:100px;
+} */
